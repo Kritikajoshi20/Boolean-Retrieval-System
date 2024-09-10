@@ -1,0 +1,59 @@
+Python Data Types: 
+Every value has a datatype, and variables can hold values. Python is a powerfully composed language; consequently, we don't have to characterize the sort of variable while announcing it. The interpreter binds the value implicitly to its type.
+
+a = 5  
+We did not specify the type of the variable a, which has the value five from an integer. The Python interpreter will automatically interpret the variable as an integer.
+
+We can verify the type of the program-used variable thanks to Python. The type() function in Python returns the type of the passed variable.
+
+Consider the following illustration when defining and verifying the values of various data types.
+ADVERTISEMENT
+
+a=10  
+b="Hi Python"  
+c = 10.5  
+print(type(a))  
+print(type(b))  
+print(type(c))  
+Output:
+
+<type 'int'>
+<type 'str'>
+<type 'float'>
+Standard data types
+A variable can contain a variety of values. On the other hand, a person's id must be stored as an integer, while their name must be stored as a string.
+
+The storage method for each of the standard data types that Python provides is specified by Python. The following is a list of the Python-defined data types.
+
+Numbers
+Sequence Type
+Boolean
+Set
+Dictionary
+Python Data Types
+The data types will be briefly discussed in this tutorial section. We will talk about every single one of them exhaustively later in this instructional exercise.
+
+Numbers
+Numeric values are stored in numbers. The whole number, float, and complex qualities have a place with a Python Numbers datatype. Python offers the type() function to determine a variable's data type. The instance () capability is utilized to check whether an item has a place with a specific class.
+
+When a number is assigned to a variable, Python generates Number objects. For instance,
+ADVERTISEMENT
+ADVERTISEMENT
+
+a = 5  
+print("The type of a", type(a))  
+  
+b = 40.5  
+print("The type of b", type(b))  
+  
+c = 1+3j  
+print("The type of c", type(c))  
+print(" c is a complex number", isinstance(1+3j,complex))  
+Output:
+
+The type of a <class 'int'>
+The type of b <class 'float'>
+The type of c <class 'complex'>
+c is complex number: True
+Python supports three kinds of numerical data.
+Reference: https://www.javatpoint.com/python-data-types 

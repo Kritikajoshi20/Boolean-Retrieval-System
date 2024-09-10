@@ -1,0 +1,39 @@
+Python Tuples
+A comma-separated group of items is called a Python triple. The ordering, settled items, and reiterations of a tuple are to some degree like those of a rundown, but in contrast to a rundown, a tuple is unchanging.
+
+The main difference between the two is that we cannot alter the components of a tuple once they have been assigned. On the other hand, we can edit the contents of a list.
+
+Example
+
+("Suzuki", "Audi", "BMW"," Skoda ") is a tuple.  
+Features of Python Tuple
+ADVERTISEMENT
+
+Any number of items, including those with various data types (dictionary, string, float, list, etc.), can be contained in a tuple.
+
+Code
+
+# Python program to show how to create a tuple    
+# Creating an empty tuple    
+empty_tuple = ()    
+print("Empty tuple: ", empty_tuple)    
+    
+# Creating tuple having integers    
+int_tuple = (4, 6, 8, 10, 12, 14)    
+print("Tuple with integers: ", int_tuple)    
+    
+# Creating a tuple having objects of different data types    
+mixed_tuple = (4, "Python", 9.3)    
+print("Tuple with different data types: ", mixed_tuple)    
+    
+# Creating a nested tuple    
+nested_tuple = ("Python", {4: 5, 6: 2, 8:2}, (5, 3, 5, 6))    
+print("A nested tuple: ", nested_tuple)    
+Output:
+
+Empty tuple: ()
+Tuple with integers: (4, 6, 8, 10, 12, 14)
+Tuple with different data types: (4, 'Python', 9.3)
+A nested tuple: ('Python', {4: 5, 6: 2, 8: 2}, (5, 3, 5, 6))
+Parentheses are not necessary for the construction of multiples. This is known as triple pressing.
+Reference: https://www.javatpoint.com/python-tuples 

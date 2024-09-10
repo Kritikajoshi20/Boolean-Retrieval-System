@@ -1,0 +1,42 @@
+Python Arrays
+Introduction:
+In this article, we are discussing Arrays in Python. The Array is used in every programming language, like C, C++, Java, Python, R, JavaScript, etc. By using an array, we can store more than one data. The Array is a process of memory allocation. car1 = "Lamborghini"  
+car2 = "Bugatti"  
+car3 = "Koenigsegg"  
+If you want to loop through cars and find a specific one, you can use the Array. You can use an array to store more than one item in a specific variable.
+
+The Array can be handled in Python by a module named Array. It is useful when we must manipulate only specific data values. 
+ADVERTISEMENT
+Traverse - It prints all the elements one by one.
+Insertion - It adds an element at the given index.
+Deletion - It deletes an element at the given index.
+
+from array import *  
+arrayName = array(typecode, [initializers])   
+Accessing array elements
+We can access the array elements using the respective indices of those elements.
+ADVERTISEMENT
+ADVERTISEMENT
+
+Here we give an example of how we access the elements of an array using its index value in Python. The code is given below -
+
+import array as arr    
+a = arr.array('i', [2, 4, 5, 6])    
+print("First element is:", a[0])    
+print("Second element is:", a[1])   
+print("Second last element is:", a[-2])     
+print(a[0], a[1], a[2], a[3], a[-1],a[-2]  
+Output:
+
+Now we compile the above code in python, and after successful compilation, we run it. Then the output is given below -
+
+First element is: 2
+Second element is: 4
+Third element is: 5
+Forth element is: 6
+last element is: 6
+2 4 5 6 6
+Explanation:
+
+In the above example, we have imported an array, defined a variable named "a" that holds the elements of an array, and printed the elements by accessing elements through the indices of an array. Here we can easily find out the array element by using the array index like a[0], a[1], a[-1], and so on.
+Reference: https://www.javatpoint.com/python-arrays

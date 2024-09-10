@@ -1,0 +1,49 @@
+Python Literals
+Python Literals can be defined as data that is given in a variable or constant.
+
+Python supports the following literals:
+
+1. String literals:
+String literals can be formed by enclosing a text in the quotes. We can use both single as well as double quotes to create a string.
+
+Example:
+ADVERTISEMENT
+
+"Aman" , '12345'  
+Types of Strings:
+
+There are two types of Strings supported in Python:
+
+a) Single-line String- Strings that are terminated within a single-line are known as Single line Strings.
+
+Example:
+
+text1='hello'  
+b) Multi-line String - A piece of text that is written in multiple lines is known as multiple lines string.
+
+There are two ways to create multiline strings:
+ADVERTISEMENT
+ADVERTISEMENT
+
+1) Adding black slash at the end of each line.
+
+Example:
+
+text1='hello\    
+user'    
+print(text1)  
+'hellouser'
+2) Using triple quotation marks:-
+
+Example:
+
+str2='''''welcome  
+to  
+SSSIT'''    
+print str2   
+Output:
+
+welcome
+to
+SSSIT
+Reference: https://www.javatpoint.com/python-literals

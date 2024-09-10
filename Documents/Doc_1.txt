@@ -1,0 +1,69 @@
+Python Variables: A variable is the name given to a memory location. A value-holding Python variable is also known as an identifier.Since Python is an infer language that is smart enough to determine the type of a variable, we do not need to specify its type in Python.
+
+Variable names must begin with a letter or an underscore, but they can be a group of both letters and digits.
+
+ADVERTISEMENT
+
+Identifier Naming
+Identifiers are things like variables. An Identifier is utilized to recognize the literals utilized in the program
+
+print("John")  
+Output:
+
+John
+The Python object makes a integer object and shows it to the control center. We have created a string object in the print statement above. Make use of the built-in type() function in Python to determine its type.
+
+type("John")  
+Output:
+ADVERTISEMENT
+ADVERTISEMENT
+
+<class 'str'>
+In Python, factors are an symbolic name that is a reference or pointer to an item. The factors are utilized to indicate objects by that name.
+
+Let's understand the following example
+
+a = 50   
+
+Python Variables
+In the above image, the variable a refers to an integer object.
+
+Suppose we assign the integer value 50 to a new variable b.
+
+a = 50  
+b = a  
+
+Python Variables
+The variable b refers to the same object that a points to because Python does not create another object.
+
+Let's assign the new value to b. Now both variables will refer to the different objects.
+a = 50  
+b = a  
+print(id(a))  
+print(id(b))  
+# Reassigned variable a  
+a = 500  
+print(id(a))  
+Output:
+
+140734982691168
+140734982691168
+2822056960944
+We assigned the b = a, an and b both highlight a similar item. The id() function that we used to check returned the same number. 
+name = "A"  
+Name = "B"  
+naMe = "C"  
+NAME = "D"  
+n_a_m_e = "E"  
+_name = "F"  
+name_ = "G"  
+_name_ = "H"  
+na56me = "I"  
+  
+print(name,Name,naMe,NAME,n_a_m_e, NAME, n_a_m_e, _name, name_,_name, na56me)  
+Output:
+
+We can apply different tasks in two ways, either by relegating a solitary worth to various factors or doling out numerous qualities to different factors. Take a look at the following example.
+
+Reference: https://www.javatpoint.com/python-variables 
+
